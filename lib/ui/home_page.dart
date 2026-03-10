@@ -104,30 +104,6 @@ class HomePage extends StatelessWidget {
 
                           Text("IDR ${products[index].price}"),
                           Text("Rate: ${products[index].rating}"),
-
-                          // Wrap(
-                          //   spacing: 6,
-                          //   runSpacing: 6,
-                          //   children: products[index].price.map(
-                          //         (h) => Container(
-                          //           padding: const EdgeInsets.symmetric(
-                          //             horizontal: 8,
-                          //             vertical: 4,
-                          //           ),
-                          //           decoration: BoxDecoration(
-                          //             border: Border.all(
-                          //               color: Colors.grey.shade400,
-                          //             ),
-                          //             borderRadius: BorderRadius.circular(8),
-                          //           ),
-                          //           child: Text(
-                          //             h,
-                          //             style: const TextStyle(fontSize: 10),
-                          //           ),
-                          //         ),
-                          //       )
-                          //       .toList(),
-                          // ),
                         ],
                       ),
                     ),

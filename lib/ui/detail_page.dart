@@ -64,30 +64,13 @@ class DetailPage extends StatelessWidget {
                   ),
                   Text(model.description),
 
+                  const Text(
+                    "Category",
+                    style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                  ),
                   Text(model.category),
 
                   const SizedBox(height: 12),
-                  // Wrap(
-                  //   spacing: 8,
-                  //   runSpacing: 8,
-                  //   children: model.description.map(
-                  //         (activity) => Container(
-                  //           padding: const EdgeInsets.symmetric(
-                  //             horizontal: 12,
-                  //             vertical: 6,
-                  //           ),
-                  //           decoration: BoxDecoration(
-                  //             border: Border.all(color: Colors.grey.shade400),
-                  //             borderRadius: BorderRadius.circular(6),
-                  //           ),
-                  //           child: Text(
-                  //             activity,
-                  //             style: const TextStyle(fontSize: 14),
-                  //           ),
-                  //         ),
-                  //       )
-                  //       .toList(),
-                  // ),
                 ],
               ),
             ),
